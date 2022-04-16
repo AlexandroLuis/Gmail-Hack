@@ -9,4 +9,4 @@
   <h5>- cd src</h5>
   <h5>- python gSnake.py</h5>
 <br><br>
-<h3>Please give a star, and enjoy :)</h3>
+<h3>Please give a star, and enjoy ^-^</h3>

